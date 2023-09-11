@@ -1,0 +1,11 @@
+@media screen and (max-width:567px){
+    #todoList .card-container {
+        width: 45vw;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 796px){
+    #todoList .card-container {
+        width: 75vw;
+    }
+}

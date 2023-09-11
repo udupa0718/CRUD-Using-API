@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media.css">
+      </head>
+    <body>
+      <nav class="menu">
+            <a href="index.html"  id="logo">CRUD</a>
+          <div id="right">
+            <a href="index.html">Home</a>
+            <a href="create.html">Create</a>
+          </div>
+      </nav>
+      <div class="container">
+        <div class="title">
+            <h3 class="text-center">Add New Todo</h3>
+        </div>
+        
+        <div class="form-container">
+            <form autocomplete="off" id="create-todo">
+                <div class="row">
+                    <label for="todo">Todo</label>
+                    <input type="text" name="todo" id="todo" class="form-input" required>
+                </div>
+                <div class="row">
+                    <label for="completed">Completed</label>
+                    <select name="completed" id="completed" class="form-input" required>
+                        <option value="null">Choose options</option>
+                        <option value="true">Completed</option>
+                        <option value="false">Not Completed</option>
+                    </select>
+                </div>
+                <div class="row">
+                     <input type="submit" value="Add todo" class="btn btn-green">
+                </div>
+            </form>
+        </div>
+      </div>
+      <script src="./assets/js/create.js"></script>
+    </body>
+</html>
